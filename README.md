@@ -14,8 +14,11 @@ Your task is to **group tags** where each group contains tags that are **substri
 
 Implement a method:
 
-<code class="whitespace-pre! language-java"><span><span>public</span><span> List<Set<String>> </span><span>groupTags</span><span>(List<String> tags)</span><span>
-</span></span></code></div></div></pre>
+```
+List<String> tags = List.of(
+  "account", "accounting", "finance", "financial", "investment", "invest", "invested", "bank", "banking"
+);
+```
 
 Where:
 
@@ -53,25 +56,26 @@ Where:
 
 ## 📁 Project Skeleton
 
-<pre class="overflow-visible!" data-start="1655" data-end="2222"><div class="contain-inline-size rounded-2xl relative bg-token-sidebar-surface-primary"><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-java"><span><span>// File: src/main/java/com/example/taggrouper/TagGrouper.java</span><span>
-</span><span>package</span><span> com.example.taggrouper;
+```
+// File: src/main/java/com/example/taggrouper/TagGrouper.java
+package com.example.taggrouper;
 
-</span><span>import</span><span> java.util.*;
+import java.util.*;
 
-</span><span>public</span><span> </span><span>class</span><span> </span><span>TagGrouper</span><span> {
+public class TagGrouper {
 
     /**
      * Groups tags that are substrings of each other.
      *
-     * </span><span>@param</span><span> tags the input list of tags
-     * </span><span>@return</span><span> a list of groups (sets), where each group contains related tags
+     * @param tags the input list of tags
+     * @return a list of groups (sets), where each group contains related tags
      */
-    </span><span>public</span><span> List<Set<String>> </span><span>groupTags</span><span>(List<String> tags)</span><span> {
-        </span><span>// TODO:</span><span> implement the algorithm
+    public List<Set<String>> groupTags(List<String> tags) {
+        // TODO: implement the algorithm
+        return Collections.emptyList(); // placeholder
     }
 
-    </span><span>// You may add helper methods or classes here</span><span>
+    // You may add helper methods or classes here
 }
-</span></span></code></div></div></pre>
-
+```
 ---
