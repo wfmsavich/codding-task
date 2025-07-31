@@ -26,7 +26,7 @@ Where:
 #### Example Input:
 ```
 List<String> tags = List.of(
-  "account", "accounting", "finance", "financial", "investment", "invest", "invested", "bank", "banking"
+  "account", "accounting", "plan", "planner", "planning", "investment", "invest", "invested", "bank", "banking"
 );
 ```
 
@@ -34,7 +34,7 @@ List<String> tags = List.of(
 
 <pre class="overflow-visible!" data-start="1088" data-end="1222"><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-java"><span><span>[
   [</span><span>"account"</span><span>, </span><span>"accounting"</span><span>],
-  [</span><span>"finance"</span><span>, </span><span>"financial"</span><span>],
+  [</span><span>"plan"</span><span>, </span><span>"planner"</span><span>, </span><span>"planning"</span><span>],
   [</span><span>"invest"</span><span>, </span><span>"investment"</span><span>, </span><span>"invested"</span><span>],
   [</span><span>"bank"</span><span>, </span><span>"banking"</span><span>]
 ]
