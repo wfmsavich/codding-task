@@ -1,6 +1,6 @@
 ## Technical Interview Task (30 minutes)
 
-**Title:***Group Tags by Common Prefix*
+**Title:** *Group Tags by Common Prefix*
 
 ### 🧩 **Background:**
 
