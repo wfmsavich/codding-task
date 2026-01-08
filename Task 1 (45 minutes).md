@@ -1,6 +1,6 @@
 ## Technical Interview Task (45 minutes)
 
-**Title:***Smart Text Grouping for Automated Document Tagging*
+**Title:** *Smart Text Grouping for Automated Document Tagging*
 
 ### 🧩 **Background:**
 
